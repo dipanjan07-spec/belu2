@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Belu's Journey</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="icon" href="belu.jpg" type="image/jpeg">
+
+    <style>
+        body {
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 22px;
+            color: #080aff;
+            background-image: linear-gradient(to right, #2ae6cb, #649fe5);
+            margin: 0;
+            padding: 30px 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Outer container wrapping everything */
+        .main-container {
+            max-width: 900px;
+            width: 95%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 30px;
+            border: 4px solid #080aff;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+            max-width: 800px;
+            width: 100%;
+            margin-bottom: 30px;
+            transition: background-color 0.5s ease-in;
+        }
+        .container:hover {
+            background-color: #eef4eb;
+        }
+        h1, h2, h3, h4 {
+            text-align: center;
+        }
+
+        h2,
+        .adventure-title {
+            color: #ff5b52;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .intro img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border: 5px solid #fe2f33;
+            border-radius: 20px;
+            transition: transform 0.3s ease-in;
+        }
+        .intro img:hover {
+            transform: rotate(-5deg);
+        }
+        .story p {
+            color: #361dff;
+        }
+
+        /* Dialogue style */
+        .dialogue {
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 15px;
+            transition: all 0.3s ease-in;
+        }
+
+        .dialogue:hover {
+            background: #d7ffef;
+            border-left: 7px solid #121bff;
+            border-bottom: 6px solid #1016ff;
+            box-shadow: 4px 8px 20px rgba(0, 0, 0, 0.43);;
+            transform: translateX(4px);
+        }
+
+        .dialogue p {
+            margin: 8px 0;
+        }
+
+        .speaker {
+            font-weight: 700;
+            color: #080aff;
+            letter-spacing: 1px;
+            text-shadow: 0 0 6px rgba(8,10,255,0.3);
+        }
+    </style>
+</head>
+<body>
+
+<div class="main-container">
+
+    <div class="container">
+
+        <h1>The Adventures of Belu1</h1>
+
+        <!-- INTRODUCTION -->
+        <section class="intro">
+            <h2>Introduction</h2>
+
+            <p>Hello everyone! My name is Divyangsha and this is <b>Belu!</b></p>
+
+            <img src="belu.jpg" width="300" height="350" alt="A photo of the dog named Belu">
+
+            <p>
+                Belu is a very timid dog that lives in our neighborhood.
+                Oh! I am so sorry—I forgot to tell <i>where</i> Belu lived!
+                He lives in our neighborhood in Kolkata, West Bengal, India.
+            </p>
+
+            <p>
+                He is very cute but somewhat timid.
+                He has a sister named Mukh-kalo and his mother is named Iti.
+                His favorite color is blue, specifically <b>#080aff</b>, which is why this webpage uses that color for the text.
+            </p>
+        </section>
+
+    </div>
+
+    <div class="container">
+
+        <!-- FIRST ADVENTURE -->
+        <section class="story">
+            <h2 class="adventure-title">His First Adventure</h2>
+
+            <p>
+                It was a normal day in Belu's house. Belu had just eaten his breakfast of eggs on toast.
+                As he stepped outside, he stopped to wonder…
+                Oh! He had totally forgotten. Today was the first day of the <b>book fair!</b>
+            </p>
+
+            <p>
+                Belu decided to go to the book fair, but deep within he knew he was only there for the sweets.
+                Suddenly, his neurons linked—sweets cost money.
+                But where would he get that money from?
+            </p>
+
+            <p>
+                First, he thought of asking his mom.
+                No way! She would give him a scolding instead.
+                That left only one option—his sister, Mukh-kalo.
+            </p>
+
+            <p>He lied and told her that he was only going to buy some <i>books</i>.</p>
+
+            <div class="dialogue">
+                <p><span class="speaker">Belu:</span> Sister, I want to go to the fair.</p>
+                <p><span class="speaker">Mukh-kalo:</span> Good! Go to the fair, but don’t get lost.</p>
+                <p><span class="speaker">Belu:</span> I won’t get lost… but I don’t have any money.</p>
+                <p><span class="speaker">Belu:</span> Oh sister, will you please give me some money?</p>
+                <p><span class="speaker">Mukh-kalo:</span> Yes, but you must promise to buy only books.</p>
+                <p><span class="speaker">Belu:</span> I promise!</p>
+            </div>
+
+            <p>
+                After getting his way, Belu washed his face and ran to catch the bus to Karunamoyee.
+                Once he reached the book fair, he knew the day would only get better.
+            </p>
+
+            <p>
+                He took one look at the books and ran straight to the sweet stalls.
+                Gulab Jamuns, rasmalai—this was heaven!
+            </p>
+
+            <p>
+                But suddenly, his worst fear came true.
+                He spotted his mom and her friends approaching.
+                Before he could escape, her hand grabbed his collar.
+            </p>
+
+            <p>
+                “Not so fast, young one!” she exclaimed.
+                Belu returned home with a scolding—but at least his stomach was full.
+            </p>
+        </section>
+
+    </div>
+
+    <div class="container story">
+        <h3 class="adventure-title">— His Second Adventure —</h3>
+        <h3>
+            <b>Going cycling</b>
+        </h3>
+        <p style="white-space: pre-line;">
+            It was Belu's big day! This was the day when he would finally learn cycling!
+            His tutor was, of course, Mukh-kalo his beloved sister.
+            The first thing you have to learn is.. she said.
+
+            Is what?
+            You have to keep your hands on the cycle-bars and <b>never</b> let go.
+            Belu agreed and she began pushing him up the road while he was paddling.
+            Slowly his speed increased and so did he confidence.
+            It was at this time that she had stopped pushing him and he was moving on his own.
+            Belu was in a thrill! He felt the wind in his face and realized that she had stopped pushing him.
+            Immediately Belu lost control and hit a fruit seller's cart which <b>whacked</b> him in the face.
+        </p>
+        <p style="white-space: pre-line;">
+            Why did you let go! exclaimed Belu.
+            But you were doing so well! she said.
+            Maybe I can't cycle :( said Belu, still with a watermelon on his head.
+            After hearing these words, Mukh-kalo felt sad and decided to let him learn on his own.
+            Belu was puzzled as to why she went back into the house but all of his thoughts cleared
+            When he saw his mom come out with a frying pan in her hands!
+        </p>
+        <p style="white-space: pre-line">
+            Immediately Belu got up on the cycle and started paddling for his life, he paddled and paddled
+            until his mom was out of sight.
+            I'm finally safe! exclaimed belu and then a thought went into his head..
+            Wait if I moved on my own, then that means.
+            I learn't cycling exclaimed Belu and started paddling back to his house whe he felt a hand on his shoulder.
+            Belu ran and ran straight to his house and then locked the door.
+            Never again will I ever cycle! exclaimed Belu.
+            This led to his fear of cycles amongst him and his sister, which is still prominent today.
+        </p>
+        <h3>
+            His Third adventure.
+        </h3>
+    </div>
+
+</div>
+
+</body>
+</html>
+
